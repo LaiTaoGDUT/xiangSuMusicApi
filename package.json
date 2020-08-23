@@ -1,0 +1,27 @@
+{
+  "name": "xiangSuMusic",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon bin/www",
+    "prd": "cross-env NODE_ENV=production ./node_modules/.bin/nodemon bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-morgan": "^1.0.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^8.0.8",
+    "koa2": "^2.0.0-alpha.7",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.3",
+    "superagent": "^5.2.2"
+  }
+}
